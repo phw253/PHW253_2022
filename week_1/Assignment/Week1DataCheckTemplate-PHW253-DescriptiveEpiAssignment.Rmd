@@ -70,7 +70,7 @@ library (incidence2)
 
 # there are 92 observations in the data set
 # 75 cases had are MLVA pattern A, 1 case pattern A2, 1 case pattern A3
-# other E.coli cases did not have MLVA pattern A, A2, pr A3 and are not a part of this outbreak
+# other E.coli cases did not have MLVA pattern A, A2, or A3 and are not a part of this outbreak
 
 #### Step 2: create new dataset and keep only rows where MLVA is an A, A2,A3 pattern
 
