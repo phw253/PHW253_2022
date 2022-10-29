@@ -76,6 +76,7 @@ library (incidence2)
 
 ##### ADD CODE HERE
 
-#### Step 3: Look at hospital variable and tabulat number of hospitalizations "Yes" "No" and "Unknown"
+
+#### Step 3: Look at hospital variable and tabulate number of hospitalizations "Yes" "No" and "Unknown"
 
 ##### ADD CODE HERE
