@@ -130,7 +130,7 @@ ecoli3 %>%  tabyl(stratachar,stratanum)
  
 ```{r}
 clogit(case ~ milk + strata(stratanum), data=ecoli3)
-## the exponential of the coefficient "exp(coef)" is the odds ratio of 2.2
+## the exponential of the coefficient "exp(coef)" is the odds ratio of 2.0
 ```
 
 
@@ -140,7 +140,7 @@ clogit(case ~ milk + strata(stratanum), data=ecoli3)
 m<-clogit(case ~ milk + strata(stratanum), data=ecoli3)
 summary(m)
 ## probability of observing a z-statistic value more extreme than
-## the one observed "Pr(>|z|)" is the p-value of 0.14
+## the one observed "Pr(>|z|)" is the p-value of 0.57
 ```
 
 
